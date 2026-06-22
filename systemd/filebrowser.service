@@ -1,0 +1,21 @@
+[Unit]
+Description=FileBrowser Media Server
+Documentation=https://filebrowser.org/
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/var/lib/filebrowser
+ExecStart=/usr/local/bin/filebrowser --config /etc/filebrowser/config.json
+Restart=on-failure
+RestartSec=5
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=filebrowser
+
+# Sicherheit (optional, kann bei Problemen entfernt werden)
+NoNewPrivileges=false
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,48 @@
+{
+    "channels": [
+        {
+            "name": "Tagesschau",
+            "url": "https://www.youtube.com/@tagesschau/videos"
+        },
+        {
+            "name": "ZDF heute",
+            "url": "https://www.youtube.com/@ZDFheute/videos"
+        },
+        {
+            "name": "Breaking Lab",
+            "url": "https://www.youtube.com/@BreakingLab"
+        },
+        {
+            "name": "Zeit TV",
+            "url": "https://www.youtube.com/@zeit/videos"
+        },
+        {
+            "name": "ARD-alpha",
+            "url": "https://www.youtube.com/@ARDalpha/videos"
+        },
+        {
+            "name": "Süddeutsche Zeitung",
+            "url": "https://www.youtube.com/@sueddeutsche/videos"
+        },
+        {
+            "name": "Faz.net",
+            "url": "https://www.youtube.com/@faz/videos"
+        },
+        {
+            "name": "Officialnorio",
+            "url": "https://www.youtube.com/@Officialnorio/videos"
+        },
+        {
+            "name": "Akkudoktor",
+            "url": "https://www.youtube.com/@Akkudoktor/videos"
+        },
+        {
+            "name": "Alte Schule",
+            "url": "https://www.youtube.com/@alte-schule/videos"
+        },
+        {
+            "name": "Geld für die Welt",
+            "url": "https://www.youtube.com/@Maurice_Hoefgen/videos"
+        }
+    ]
+}
